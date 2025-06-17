@@ -1,0 +1,12 @@
+INICIO
+
+escreva("Digite o primeiro número")
+leia(a)
+escreva("Digite o segundo número")
+leia(b)
+
+c = a * b
+
+escreva("Resultado: ", c, ".")
+
+FIM
