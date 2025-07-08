@@ -1,28 +1,4 @@
-// Programa para calcular o fatorial de um número
-
-VAR INTEIRO n;
-VAR INTEIRO i;
-VAR INTEIRO fat;
-VAR TEXTO msg;
-
-msg = "Digite um numero inteiro para calcular o fatorial: ";
-ESCREVA(msg);
-LEIA_INT(n);
-
-SE (n < 0) {
-    ESCREVA("Nao existe fatorial para numero negativo.");
-} SENAO {
-    fat = 1;
-    i = 1;
-    ENQUANTO (i <= n) {
-        fat = fat * i;
-        i = i + 1;
-    }
-
-    ESCREVA("O fatorial de " + n + " e: " + fat);
-}
-
-// Teste de vetores e reais
+// exemplo de vetores e reais
 VAR REAL notas[3];
 notas[0] = 7.5;
 notas[1] = 9.0;
@@ -30,5 +6,5 @@ notas[2] = 6.5;
 
 VAR REAL media;
 media = (notas[0] + notas[1] + notas[2]) / 3.0;
-
+   
 ESCREVA("A media das notas e: " + media);
