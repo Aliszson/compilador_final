@@ -71,6 +71,20 @@ A linguagem implementada suporta as funcionalidades:
         rm -f analisador lex.yy.c comp_bison.tab.c comp_bison.tab.h	
     ```
 
+### Testes com Vetores:
+
+```
+   // Teste de vetores e reais
+   VAR REAL notas[3];
+   notas[0] = 7.5;
+   notas[1] = 9.0;
+   notas[2] = 6.5;
+   
+   VAR REAL media;
+   media = (notas[0] + notas[1] + notas[2]) / 3.0;
+   
+   ESCREVA("A media das notas e: " + media);
+```
 ### Exemplo de Código 1 (`entrada.portugol2`)
 
 ```
@@ -97,17 +111,6 @@ SE (n < 0) {
 
     ESCREVA("O fatorial de " + n + " e: " + fat);
 }
-
-// Teste de vetores e reais
-VAR REAL notas[3];
-notas[0] = 7.5;
-notas[1] = 9.0;
-notas[2] = 6.5;
-
-VAR REAL media;
-media = (notas[0] + notas[1] + notas[2]) / 3.0;
-
-ESCREVA("A media das notas e: " + media);
 ```
 
 ### Exemplo de Código 2 (`entrada.portugol2`)
